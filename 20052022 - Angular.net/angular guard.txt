@@ -1,0 +1,68 @@
+
+
+
+			Web Revolution
+			ES - Typescript
+			Angular
+				Components
+				Pipes
+					inbuilt
+					custom
+				service
+					HttpClient
+					Routing
+						Nested Routing
+						Routing - we did make use of httpclient
+						Angular Guard - since angular 9 onwards
+							most useful service after routing
+		--------------------------------------------------------------------------			
+				Angular with .Net Core (6.0) - VS 2019/VS 2022
+
+			u will still need (node, npm, angular/cli)
+
+
+
+
+
+
+
+
+
+				In a SPA application, we have below routes
+					Home
+					About
+					Contact
+					Reports  (should not be available/accessible, for unlogged user)
+					TransferFunds (should not be available/accessible, for unlogged user)
+					Login
+					Register
+
+
+				Guards
+					1. Activated Guard (returns true or false)
+
+
+
+			Reports
+				Finance Report (open to logged in users)
+				Advisory Report (open to logged in users)
+				Client Report (open only to Directors)
+				PnL Statement Report (only to Directors)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.				

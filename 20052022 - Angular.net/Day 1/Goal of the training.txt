@@ -1,0 +1,3 @@
+Complete Angular (Development)
+.Net with Entity Framework to talk to database, Perform CRUD Operations
+	To develop REST API 

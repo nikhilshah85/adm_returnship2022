@@ -1,0 +1,33 @@
+1. Components
+2. App Component
+3. App Module 
+------------------------------------------
+	Component Development
+		HTML
+		CSS
+		.ts (class)
+			Data
+				4 types of data we work with in Angular
+					a. primitive data (string, int, bool, double etc..)
+					b. primitive data Array
+					c. Json Objects   { empNo:101, 
+							    empName:'Nikhil',
+							    empAddress:{city:'Mumbai',
+									lane:'Cuff Pared',
+									location:{ lat:430,lon:349 },
+							    empContact:[2498232,234-938,23432414]
+							   }
+					 this is typically a row from database
+					d. JSON Object Array
+						   [{........},
+						    {........},{..........}]
+
+--------------------------------------------------------------------------------------
+			This data will be coming from a service call (Angular Service)
+					Services will make REST API call and get the data, give it to component
+
+
+
+
+
+

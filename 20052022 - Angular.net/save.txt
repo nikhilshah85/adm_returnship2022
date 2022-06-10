@@ -1,0 +1,24 @@
+Angular with .net
+	ClientAPP
+		APP Component
+		APP.module.ts  --- routing is pre configured
+	Controller -- this is where you creaate your own REST Service
+			C# - with Entity Framework 
+				create CRUD operations with SQL Server
+
+			our application will be using SQL Server on 
+			Azure cloud
+(u do not have cloud access, u can access mine)
+
+------------------------------------------------------------------------------------------
+1. Create a new SQL Server instance on Azure cloud
+2. Access the server from SSMS locally  (test the connection)
+3. Create a new database
+4. Add a table and some sample data
+5. Create a new Angular with .net application (test the app)
+6. Configure Entity Framework in the application (nuget packages)
+7. Add a new controller in application with EF and ready your CRUD operations (test it) - WebAPI - RESTAPI
+8. Add a new Service in Angular using CLI - service will make a call to webapi from step 7
+9. Display the data in Angular Component
+
+https://www.codepile.net/pile/wg8roBmB

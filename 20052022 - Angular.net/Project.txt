@@ -1,0 +1,97 @@
+	Week 1:
+			Components
+			Pipes
+				inbuilt --
+				Custom ---
+--------------------------------------------------------------------------------------
+		Plan for today
+			a. Task (imp - part of training)
+			b. Angular CLI - introduction (speed up the work by 200%)
+
+--------------------------------------------------------------------------------------------------
+		Task (same task will addition on next friday with more topics, in the end you end up with a
+			working project, can be used as POC)
+
+
+			Create a project - shoppingAPP
+				we need a component - Products
+					which will have 20 products, an array of json object
+					properties
+						pId, pName, pAvailableQty, pIsInStock,pPrice,pCategory
+						
+			you will have 3 categories, Electronics, Cloths, Accessories
+
+						we need to display discount for every prodcut, as a new column
+						This discount is based on Categoty
+						
+						Category      Dicount Rate
+						Electronics - 8%
+						Clothing - 20%
+						Accessories - 50%
+
+			on top of page, display TotalProducts : 20
+						Electronics : ?    | Clothing : ?  | Accessories : ?
+			Logic development
+				have a combobox - with category values when user select the value, filter 				products
+
+-------------------------------------------------------------------------------------
+		Make sure this is completed before next friday session, as we will be adding more features here
+		1. Services
+		2. REST API Calls
+		3. If we go smooth, we will also have inbuilt service : Guards
+
+---------------------------------------------------------------------------------------------------------------			Week 2 - Project
+			Create a new shoppingAPP angular application with the below requirement
+			SPA app
+			
+			1. should have below components
+				Home as default - display a good heading and an images, copy some text from 
+							wikipidia and paste in <p>
+				Products - display list of 10 products, which will come frm a service
+					   (hard code the product - JSON object array) - display in a table
+				AddProduct - Allow adding with textboxes and button, when you add here, 
+					    new product should also appear in Products component
+				Comments - make a rest api call and get the comments and display it here in a 					   table
+						https://jsonplaceholder.typicode.com/comments
+				About - put some contnts here
+				Login - Login - have username and password (we will complete this component 						with Guard service)
+				Register - collect firstname,lastname,username and password (just create the 						UI - txtBox and button) - we will make a POST call to our 						own service
+				Cart - just have a cart value and productsInCart properties (2 properties)
+			
+				if time permits, use a pipe
+		
+
+
+
+
+
+
+
+
+
+			
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+				

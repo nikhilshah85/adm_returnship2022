@@ -1,0 +1,90 @@
+
+
+
+
+
+				This is an output of 
+				Web Revolution (2013) From Developers Prespective
+
+
+		1. When was the first time u used internet - year 
+			World Average - 2007
+		2. What was the source of internet ? - Lan / telephone / wiFi
+
+		3. What did u internet for ? - email / surfing / Games
+
+		4. Where did u use internet - Home / office / cyber cafe
+
+		5. What was the devise u used that time - desktop - laptop
+------------------------------------
+			life was easy for web developers to create web contents
+
+		2. What was the source of internet - Wifi - Mobile Data
+			since - develop web contents which will work even in slow network
+		3. Internet for everything
+
+		4. Habbits of end user and Resolution of a devise (200+ resolutions)
+			Zoom in zoom out with fingures, content shoud respond
+			flip from verical to horizontal
+			cameras, checkings, navigators etc.
+
+			Hardware - has changed a lot
+				storage and caching
+
+				lot of info is stored in cookies / RAM(cache) 
+
+				when was the last time u cleared borwser history on desktop/laptop ?
+				when on mobile phone > -- clear the last used app -- with a swipe
+
+		------------------
+		createing such content was very difficult for the end user
+			as on client end, only 3 things will works
+				HTML, CSS and JS
+
+
+			Things has moved from server centric app to client centric app(.Net, Java oops)			
+			Thus a client centric framework is needed
+		
+		a STANDARD Came in
+			HTML - HTML 5
+			CSS  - CSS 3
+			JS - this was a major problem (as it was not OOPS based)
+				thus ECMA and W3C came up with OOPS based Javascript (EcmaScript - ES2015)
+					(it is very difficult althoug, as everything was a function)
+				Thus Microsoft took the standards, created a compiler, keywords, modules
+					and gave us Typescript
+
+				Google took typescript, gave us a framework - Angular
+
+
+
+--------------------
+		Angular works on top of NodeJS
+
+
+
+
+
+
+			Lab:
+				a. Installation (install all the softwares along with Angular)
+					do it in you do not have software installed
+				b. create first angular app
+				c. run and test the app
+				4. understand small little things about default app (file structure)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+				

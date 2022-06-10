@@ -1,0 +1,13 @@
+Download and install NodeJS
+www.nodejs.org
+node -v
+npm -v
+	npm install @angular/cli -g
+ng --version
+ng new firstangularapp
+	N - to routing
+	CSS 
+
+
+download and install VS Code
+https://code.visualstudio.com/docs/?dv=win
