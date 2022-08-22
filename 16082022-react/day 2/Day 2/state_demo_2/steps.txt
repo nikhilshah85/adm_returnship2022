@@ -1,0 +1,106 @@
+1. Create a new app - state_demo2
+2. clean the app.js file and make a class component
+3. add a new constructor, 
+	add a state variable, product
+
+	constructor(props)
+{
+  //3
+  super(props);
+
+  //4
+  this.state = {
+    products:[
+      {pId:101, pName:'T-Shirt',pCategory:'Cloths',pPrice:1800},
+      {pId:102, pName:'T-Shirt',pCategory:'Cloths',pPrice:1800},
+      {pId:103, pName:'T-Shirt',pCategory:'Cloths',pPrice:1800},
+      {pId:104, pName:'T-Shirt',pCategory:'Cloths',pPrice:1800},
+      {pId:105, pName:'T-Shirt',pCategory:'Cloths',pPrice:1800},
+      {pId:106, pName:'T-Shirt',pCategory:'Cloths',pPrice:1800}
+    ],
+    
+  }
+
+4. add a new folder component, add Productview.jsx
+	import { Component } from "react";
+
+class ProductView extends Component
+{
+    render(){
+        return(<div>
+
+                <table>
+                    { this.props.pList.map( p => <tr>
+                        <td> { p.pId }</td>
+                        <td> { p.pName }</td>
+                        <td> { p.pCategory }</td>
+                        <td> { p.pPrice }</td>
+                    </tr>) }
+                </table>
+        </div>)
+    }
+}
+
+export default ProductView;
+
+
+5. call the productsView in app.js
+	 <ProductView pList={this.state.products}> </ProductView>
+
+6. save everything and run the app, you should see the products list in a table
+
+7. add a new Method in app.jsx addNewProduct
+
+	//6
+addNewProduct()
+{
+//7
+  var newP = {pId:107, pName:'T-Shirt',pCategory:'Cloths',pPrice:1800};
+
+  
+ //8 add a new local variable, and set it equal to the list from state 
+  var newList = this.state.products;
+
+  //9 add a new reord to the local variable
+  newList.push(newP);
+
+  //10 set the state variable to local variable
+  this.setState({
+    products:newList
+  })
+}
+
+8. very imp, bind the function in constructor as it is making changes to State variable
+	this.addNewProduct = this.addNewProduct.bind(this);
+
+	//do it after the ine your state variable complts
+
+9. add a new componnent Addproduct.jsx
+	import { Component } from "react";
+
+
+class AddProduct extends Component
+{
+    render(){
+        return(<div>
+            <button onClick={this.props.addNewProduct()}></button>
+        </div>)
+    }
+}
+
+10. call addProduct in app.jsx
+
+	  <button onClick={this.addNewProduct}>Add Product</button>
+
+11. save everything and run the app, you should see a button and list of products
+	click the button it will add a new product
+
+
+
+
+
+
+
+
+
+

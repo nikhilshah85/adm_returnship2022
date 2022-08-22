@@ -1,0 +1,214 @@
+React Development
+	ES6-7
+	a. Components 
+		types / categories of data
+		
+		communication between components
+		Types of components
+		a. class based components
+		b. function based components
+
+		states 
+		props
+		ref
+
+		hooks (function based components)
+
+	b. Makeing a API calls 	
+		fetch api
+		axios (used at many projects with cognizant)
+
+	c. Redux / flux
+-------------------------------------------------------
+Pre-requisite
+	HTML, CSS, JS , OOPS
+	
+-------------------------------------------
+
+Expectations :
+	Be interactive
+	ask questions
+
+
+------------------------------------
+
+Break : 4:30 - 5:00
+
+
+
+
+
+------------------------------------------------------------------------------------------------------------------------------------
+
+						Web Revolution
+
+
+	1. Which year did u start using internet - 2006 - Global average
+	2. What did you use internet for - during those days  - emails, surfing, download songs, ringtones, send sms
+	3. Source of Internet - Lan / telephones / broadbands
+	4. Where did u use internet - Home / Cyber cafe / friends home 
+	5. How did u use internet - Browser - on desktop - laptop
+
+
+
+		---------------------------------------------------------------------------
+
+	1. When ppl today start using internet - Mobile phones / tablets / tv's 
+	2. Internet is used for everything today 
+	3. Source of internet - Mobile data - Wifi
+	4. Internet is used everywhere today - Malls, cabs, airports, buses, play grounds everywhere
+	5. use apps for internets
+
+	------------------------------------------------------------------------------------------------
+		Developers has to develop the contents accordingly
+
+	Keeping in mind habbits and devises of end use
+		Devises - Resolutions - 100 ppl - 100 resolutions
+			Developer has to develop web contents which will fit on all t	he size - width and height
+		Image - zoom in - zoom out
+		Videos - flip 
+		Storage - cache 
+			clear cookies - cache very offten on devised - to improve speed
+
+		Mobile data - is always fluctuating 
+
+		------------------------------------------------------------------------------------------
+		Developers has to develop the contents accordingly
+		Client Centeric Apps
+
+		ASP.net / Java / PHP / Python / IIS / Tom Cat Apache / GlassFish 
+			this are all server centeric 
+
+
+	Thus new tech for client centeric apps - 
+		Browsers / Phones / devises - understands only - HTML, CSS and JS
+
+
+		W3C - HTML5, CSS3, JS was not OOPS based - Thus ES6 became a standard - which is OOPS based
+
+	---------------------------------------------------------------------------------------------------
+		Based on above 3  - open source communities came forward  - created libraries and framework 
+
+
+		1 of the community was working on UI framework 
+			Facebook liked it - took the code / modified it , made changes
+				named it as React  - still an open source
+
+	-------------------------------------------------------------------------------------------------
+
+			React is a client centeric Development framework by Facebook
+			uses Ecma Script 
+			uses Pattern  - Components based development (Component is like a plug-in)
+			runs on Node (server for client centeric apps)
+			can be developed using VS Code - this is from microsoft - free - open source - no licence
+			Cross-platform - cross - browser
+
+	-----------------------------------------------------------------------------------------------------------------
+
+		Softwares
+		
+		VS Code
+		Node with NPM
+		React - npm install -g create-react-app 
+			(this is CLI - which is used to create react - boilerplate app - with all the configurations)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+		
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
