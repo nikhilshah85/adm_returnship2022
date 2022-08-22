@@ -1,0 +1,41 @@
+
+
+
+
+1. Autofac in C# on .net core
+	It is a third party to handle DI 
+		.Net framework did not had DI in built
+
+	a. in a new applicaiton, install the nuget package
+			 Autofac
+			 Autofac.Extensions.DependencyInjection
+
+	b. in startup.cs
+			
+
+				builder.Host.UseServiceProviderFactory(new AutofacServiceProviderFactory());
+
+	c. Add a namespace or a class for DI
+			
+			 builder.RegisterType<TransferFunds>().As<IService>(); -- TransferFunds is a class - with interface / 											Repository pattern
+			
+	
+		// Other Lifetime
+        // Transient
+        builder.RegisterType<MyService>().As<IService>()
+            .InstancePerDependency();
+
+        // Scoped
+        builder.RegisterType<MyService>().As<IService>()
+            .InstancePerLifetimeScope();
+
+        builder.RegisterType<MyService>().As<IService>()
+            .InstancePerRequest();
+
+        // Singleton
+        builder.RegisterType<MyService>().As<IService>()
+            .SingleInstance();
+
+
+
+2. QnA

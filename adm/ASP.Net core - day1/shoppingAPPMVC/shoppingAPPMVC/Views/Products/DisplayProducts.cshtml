@@ -1,0 +1,23 @@
+﻿
+
+<h1> Product List </h1>
+
+<h3> Total Products : @ViewBag.totalProducts </h3>
+<p> Developer : @ViewBag.myName  </p>
+
+<table class="table">      
+
+    @foreach (var item in ViewBag.products)
+    {
+        <tr>
+            <td> @item.pId </td>
+            <td> @item.pName </td>
+            <td> @item.pCategory </td>
+            <td> @item.pPrice </td>
+            <td> @item.pIsInStock </td>
+            <td> <button class="btn btn-danger glyphicon glyphicon-plus">  </button> </td>
+        </tr>
+    }
+
+
+</table>

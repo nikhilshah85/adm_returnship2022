@@ -1,0 +1,103 @@
+			ASP.Net WebAPI
+
+wea had SOAP based Web Services - useing XML Schema for data communication and cross platform apps
+
+SOAP became very heavy and slow for todays internet connections
+
+Thus we wanted a light weight and super fast data format,cross platform - JSON was inrtroduced
+
+-------------------
+SOAP - web services - was not based on HTTP protocol standards
+
+But today comapred to 200-2005 - internet has evolved to a very huge extend
+
+ 
+-------------------------------
+Thus W3C - World wide web consorium - laid the standards - REST 
+Representational State Transfer - talks about transfer of data, read the data from network
+				serialialize and deserialize the data 
+
+------------------------------
+Microsoft studied this sandards, created classes, methods, properties, compoilers, Attributes, framework for developers and called it
+as WebAPI - ASP.Net Web API 
+
+
+
+
+Web API - 
+	This is a service - for data communication - No UI no backend - like in MVC - u will have Contoller and model no view
+	This is a Middle ware of your project
+	.Net API Developer - Develop WebAPI (C#) 
+		            Consume WebAPI (Javascript / C#)
+
+
+-------------
+	WebAPI methods will have IActionResult as a return type (all the methods)
+	and it will return HttpStatus Code
+
+
+	www.somesite.com/nikhil/trainings/cognizant 
+
+
+	there is no such location - what do you get  ? 404 - Page not round
+	there is a code for Get, Put, Post, delete, error, security etc...
+
+	https://developer.mozilla.org/en-US/docs/Web/HTTP/Status
+
+		
+
+	HttpVerbs used in WEbAPI 
+		Get - when user wants to get something from the server (data, image, video etc....)
+		Put - When user wants to update anything
+		Delete  - when user wasnts to delete something 
+		Post - when user wants to Add a new resource 
+
+		To test webapi - we need some tools
+			Postman (needs to be downloaded and installed for WebaPI 5.0 and below)
+			Fiddler (needs to be downloaded and installed for WebaPI 5.0 and below)
+			Swagger (inbuilt with .net core 6.0)
+			
+		This tools can perform GET, PUT, POST and Delete methods
+		U can test GET part in browser throught browser address
+		but for Post, put and delete u need to create an HTML form 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

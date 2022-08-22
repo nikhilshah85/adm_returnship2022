@@ -1,0 +1,23 @@
+
+
+
+
+
+
+				Questions / Doubts
+
+		Generics with Interfaces 
+
+			Generics are collections to store multiple data, helps in performance against
+				Array, ArrayList (non-generics collections)
+			Interface (this has to with OOPS) 
+				Interface is a contract
+				It helps to solve multiple inheritance
+				Just create the signature and Implementing class has to implement the method, 						otherwise compilation errory 
+				
+				
+				Code Arch decides this at a very early level
+				Project managers
+
+		Web Services, they use it a lot
+		Design Patterns (20 standard design patterns) - all the design patterns are based on interface

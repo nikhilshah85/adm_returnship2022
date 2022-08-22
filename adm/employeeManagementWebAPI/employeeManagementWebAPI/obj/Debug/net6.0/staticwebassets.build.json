@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "pcK/pNbaOguZiyrttTaUvFYbgDGO/+mDbM3/i2HDaPY=",
+  "Source": "employeeManagementWebAPI",
+  "BasePath": "_content/employeeManagementWebAPI",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

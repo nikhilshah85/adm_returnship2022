@@ -1,0 +1,21 @@
+create database repositoryDemoDB
+
+use repositoryDemoDB
+
+create table empDetils
+(
+	empployeeNo int,
+	employeeName varchar(20),
+	employeeDesignation varchar(20),
+	employeePay int,
+	employeeIsPermenant bit
+)
+insert into empDetils values(501, 'SQL 1','Accounts',9000,1)
+insert into empDetils values(502, 'SQL 2','Accounts',9000,1)
+insert into empDetils values(503, 'SQL 3','Accounts',9000,1)
+insert into empDetils values(504, 'SQL 4','Accounts',9000,1)
+insert into empDetils values(505, 'SQL 5','Accounts',9000,1)
+insert into empDetils values(506, 'SQL 6','Accounts',9000,1)
+insert into empDetils values(507, 'SQL 7','Accounts',9000,1)
+insert into empDetils values(508, 'SQL 8','Accounts',9000,1)
+insert into empDetils values(509, 'SQL 9','Accounts',9000,1)

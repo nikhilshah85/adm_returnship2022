@@ -1,0 +1,11 @@
+C:\Users\hp\Desktop\adm\reflectionDemo\ReflectionUI\ReflectionUI\bin\Debug\ReflectionUI.exe.config
+C:\Users\hp\Desktop\adm\reflectionDemo\ReflectionUI\ReflectionUI\bin\Debug\ReflectionUI.exe
+C:\Users\hp\Desktop\adm\reflectionDemo\ReflectionUI\ReflectionUI\bin\Debug\ReflectionUI.pdb
+C:\Users\hp\Desktop\adm\reflectionDemo\ReflectionUI\ReflectionUI\obj\Debug\ReflectionUI.csproj.AssemblyReference.cache
+C:\Users\hp\Desktop\adm\reflectionDemo\ReflectionUI\ReflectionUI\obj\Debug\ReflectionUI.csproj.SuggestedBindingRedirects.cache
+C:\Users\hp\Desktop\adm\reflectionDemo\ReflectionUI\ReflectionUI\obj\Debug\ReflectionUI.Form1.resources
+C:\Users\hp\Desktop\adm\reflectionDemo\ReflectionUI\ReflectionUI\obj\Debug\ReflectionUI.Properties.Resources.resources
+C:\Users\hp\Desktop\adm\reflectionDemo\ReflectionUI\ReflectionUI\obj\Debug\ReflectionUI.csproj.GenerateResource.cache
+C:\Users\hp\Desktop\adm\reflectionDemo\ReflectionUI\ReflectionUI\obj\Debug\ReflectionUI.csproj.CoreCompileInputs.cache
+C:\Users\hp\Desktop\adm\reflectionDemo\ReflectionUI\ReflectionUI\obj\Debug\ReflectionUI.exe
+C:\Users\hp\Desktop\adm\reflectionDemo\ReflectionUI\ReflectionUI\obj\Debug\ReflectionUI.pdb

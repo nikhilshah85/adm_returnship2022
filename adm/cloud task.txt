@@ -1,0 +1,27 @@
+1. Virtual Machines
+2. SQL Server
+3. App Service (any kind of web content, website, api, restful service, mobile app, php, phypthon)
+	a. create a new MVC app on desktop using visual studio 
+	b. create a a new app service on Azure 
+	c. deploy the app to azure
+---------------------------------------------------------------------------------------------------------
+	
+
+	a. Cretea a new sql server on cloud
+	b. add a database (tbl_trainings, tbl_newtrainingRequest)
+	C. connect to server from SSMS
+	d. create a tables (Contact us, Trainings, request_new_training (empId,techName, level, purpose, duration expected, etc.)
+	e. create a a new web app, which will use ef core to interact with above database
+		and will allow use to login from facebook, google
+	f. use Individual account while createing the project, user can login from Facebook, google, or own registration
+	g. Pusblish the site to Azure App service and share the link with me, I wish to browse it
+		To Request a new training, user should be logged in
+
+
+	create the database on local machine
+	create the website on local machine
+
+	createa a new sql server on azure
+		publish the database to this server
+	create a app service on azure
+		publish the site

@@ -1,0 +1,18 @@
+
+
+
+1. Repository Pattern
+	When data source chages - there is problem for whole application
+	
+		during development  - we are useing InMemory Collection (List) - application is created well - works well
+		during production - after 3 months - lets use SQL Server database (SQL server free tiral edition - 6 months)
+		after another 5 months - we said Orcle licence is chepear than sql server
+		later we want to switch to NoSQL database - MongoDB
+
+		we had model, view, controller everything being designed accordingly
+		and thus all of this will need some or some changes
+
+		however, if we use Reposititory pattern, we do not have to make change to any of the part of application
+
+	-----------------------------------
+		Any pattern is created using Interface

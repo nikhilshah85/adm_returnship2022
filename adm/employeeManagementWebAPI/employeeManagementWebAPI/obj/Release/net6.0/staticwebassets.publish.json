@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "ds3bIEBPYEyWjDTVOv4kLMrcUWmxML6WbCDMFjxuqac=",
+  "Source": "employeeManagementWebAPI",
+  "BasePath": "_content/employeeManagementWebAPI",
+  "Mode": "Default",
+  "ManifestType": "Publish",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

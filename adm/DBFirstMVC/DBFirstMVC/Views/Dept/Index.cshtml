@@ -1,0 +1,53 @@
+﻿@model IEnumerable<CodeFirstMVC.Models.DeptInfo>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Index</h1>
+
+<p>
+    <a asp-action="Create">Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.deptNo)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.deptName)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.deptEmail)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.deptContact)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.deptNo)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.deptName)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.deptEmail)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.deptContact)
+            </td>
+            <td>
+                <a asp-action="Edit" asp-route-id="@item.Id">Edit</a> |
+                <a asp-action="Details" asp-route-id="@item.Id">Details</a> |
+                <a asp-action="Delete" asp-route-id="@item.Id">Delete</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

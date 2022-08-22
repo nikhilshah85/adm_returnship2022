@@ -1,0 +1,19 @@
+
+
+
+			MVC - Model View Controller
+
+			A page will be divided into 3 parts
+
+			Model (.cs file) -> Data part of application
+				CRUD operations, Sort, fileter, data validation, calculation etc..
+				Data communication with DB, File, WebAPI etcc....
+
+			View (.cshtml file) - UI 
+				HTML, CSS, JS, Bootstrap, JQuery, etc..
+				Razor Syntax (short hand JS+HTML)
+
+			Controller (.cs)
+				Cordinate between view and model
+				Collect data from Model, pass it to view
+				Collect data from view, pass it to Model

@@ -1,0 +1,8 @@
+C:\Users\hp\Desktop\adm\InterfaceDemo\InterfaceDemo\bin\Debug\InterfaceDemo.exe.config
+C:\Users\hp\Desktop\adm\InterfaceDemo\InterfaceDemo\bin\Debug\InterfaceDemo.exe
+C:\Users\hp\Desktop\adm\InterfaceDemo\InterfaceDemo\bin\Debug\InterfaceDemo.pdb
+C:\Users\hp\Desktop\adm\InterfaceDemo\InterfaceDemo\obj\Debug\InterfaceDemo.csproj.AssemblyReference.cache
+C:\Users\hp\Desktop\adm\InterfaceDemo\InterfaceDemo\obj\Debug\InterfaceDemo.csproj.SuggestedBindingRedirects.cache
+C:\Users\hp\Desktop\adm\InterfaceDemo\InterfaceDemo\obj\Debug\InterfaceDemo.csproj.CoreCompileInputs.cache
+C:\Users\hp\Desktop\adm\InterfaceDemo\InterfaceDemo\obj\Debug\InterfaceDemo.exe
+C:\Users\hp\Desktop\adm\InterfaceDemo\InterfaceDemo\obj\Debug\InterfaceDemo.pdb

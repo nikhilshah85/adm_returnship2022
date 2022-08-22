@@ -1,0 +1,46 @@
+
+
+
+1. ASP.net core 
+
+
+
+			Model (.cs file)
+
+			
+
+			View
+				Action View
+					Strongly typed based on a model
+					Loosely typed based on a Viewbag/viewdata
+				Layout View (Master page) - centeralised UI 
+				Partial View (custom and reuseable control)
+
+			Controller
+				MVC Controller
+				API Controller (WebAPI - RESTFul Services)	
+
+	database <--> Model --> Controller --> View
+	View --> Controller --> Model <--> database 
+
+		
+		Viewbag - dynamic in nature
+		Viewdata - strongly typed
+		Tempdata - used to share data between multiple controllers and their view
+
+		Forloop
+		if condition
+		while
+		partialview
+
+
+
+
+
+
+
+
+
+
+
+

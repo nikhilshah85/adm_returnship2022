@@ -1,0 +1,15 @@
+Reflections - this is used in mostly dynamic applications
+
+a. web services
+b. restful api
+-----------------------------------------------------------
+	Reflection is  to know the Type information from a .dll/.exe
+	1.Detect Namespace, classes(Type), methods, properties, events, constructrs, parameters etcc..
+	2. To create an Object Dynamically, at runtime
+
+		Assembly - is a class to load any assembly at run time
+		TypeInfo - to detect classes
+		MehtodInfo
+		ConstructorInfo
+		ParameterInfo
+		EventInfo 
