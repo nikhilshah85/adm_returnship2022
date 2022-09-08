@@ -1,0 +1,27 @@
+docker --version
+docker images
+docker ps (list of all the running containers)
+docker ps -a (list of running, stopped and teminated containers)
+docker run imagesname (run an image in a container)
+	docker run hello-world  (hello world is an image by docker) - this is a console application
+		image will run if it is in your machine
+		else 
+		it will search in your docker account
+		else
+		it will search in docker registery 
+
+docker pull sanjaysaini2000/angular-app (pull the images)
+docker docker pull nikhilshahdocker/flight:v1
+
+
+docker run -d -p 80:80 sanjaysaini2000/angular-app 
+	open the browser, type localhost and operate the applcation
+
+docker run -d -p 5000:80 nikhilshahdocker/flight:v1
+	open the browser, type localhost:5000/api/flight 
+
+docker stop containerid
+
+docker ps -a
+docker rm containerid (removes the container)
+docker rmi imageid (removes the image)

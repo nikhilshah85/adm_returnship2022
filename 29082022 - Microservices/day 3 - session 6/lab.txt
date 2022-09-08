@@ -1,0 +1,20 @@
+
+
+
+Lab :
+
+	1. 
+	Pull the below app and test it in a container
+
+	docker pull nikhilshahdocker/prodapp
+
+
+	2. Create a new employee app like products, add an api with the same to share the data with other apps 
+		convert the app as an microservice image using docker
+		push the same to your docker account
+			share the image with me and others
+
+		we will consume this image tomorrow into another app (ASP.net mvc or Angular / react app)                                        --------------------------------->>>>>>>>>>>>>>>>>>>>>>>>>>
+
+
+	download todays products app from download button

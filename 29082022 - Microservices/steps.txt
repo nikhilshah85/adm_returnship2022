@@ -1,0 +1,57 @@
+1. create a new mvc application using command prompt
+	dotnet new mvc --name shoppingAPP
+
+2. build the application using command prompt
+	inside the application - 
+	dotnet build
+	
+3. run the application using command prompt
+	dotnet run 
+4. test the application on browser
+
+--------
+This is not a microservice app yet, to conver this into a microservice 
+
+5. Add a new file - DockerFile and add the contents to it
+	open the application in vs code
+		make sure C# extention and docker extentions are installed
+
+		control + shift + p
+
+	add docker file to project
+	choose the options	
+
+6. build an docker image of your application by fireing docker command
+	docker build . -t shoppingappms:v1 
+
+
+7. docker images
+
+8. run the image in a container
+	docker run -d -p 2300:80 shoppingappms:v1 
+
+8. docker ps
+
+9. test the application on browser at https://localhost:2300
+	and you shoud see the output
+10. login to docker using 
+	docker login
+11. tag the image with dockerid
+	docker tag empms:v1 nikhilshahdocker/empms:v1
+12. docker push nikhilshahdocker/empms:v1
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,46 @@
+1. Microservice
+	They are very small little application 
+		haveing a single functionality / 1 module
+2. MS can be based on different technologies
+
+3. They communicate using REST/webapi
+
+4. They are created on .net using docker
+
+5. MS is an image application and runs under a containers
+
+6. They are cross platform, developed anywhere, executed anywhere
+
+-----------------------
+
+Setup
+1. --- Docker needs Hyper-vision machine with virtualization enabled
+2.--- Needs Windows Pro, does not run on Home edition of windows
+
+3. Visual studio 2022
+	https://visualstudio.microsoft.com/vs/
+	ASP.Net and web development
+	.Net desktop development
+	Data Storage and processing
+
+4. Docker desktop for windows
+	https://docs.docker.com/desktop/install/windows-install/
+
+5. Visual Studio Code for windows
+	https://code.visualstudio.com/download
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

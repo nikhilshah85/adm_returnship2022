@@ -1,0 +1,23 @@
+1. create a new dotnet application
+	dotnet new mvc --name shoppingAPP
+2. built the app
+	dotnet build
+3. run and test the ap on browser
+	dotnet run
+4. convert the app into a microservice by adding docker file and converting the app into an image
+	add a docker file
+	docker build .
+5. run the app in a container
+	docker run -d -p 9000:80 shoppingAPP
+6. test the app by accessing the same on browser
+7. login to docker 
+	docker login
+8. tag the image with your docker id, so that it can be pushed to docker hub
+	docker tag myshop:v1 nikhilshahdocker/myshop:aqua
+9. push the image on docker hub and test the same on docker hub portal
+	docker push
+10. you should be able to pull the image on your machine and run the same.
+11. developer can have muliplt versions of the same app
+	eg.
+	shoppingAPP:india (all the producs for indian customer and indian demand) - we will have different bg color
+	shoppingAPP:UK  (all the producs for indian customer and UK demand) - we will have different bg color

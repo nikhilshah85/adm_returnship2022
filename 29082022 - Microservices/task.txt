@@ -1,0 +1,106 @@
+
+
+
+
+
+
+
+
+
+
+		
+		1. Create and a test a microservice app (25 % of MS developers work)
+			Images
+			container
+		2. pull and push the image to a repository (docker repo, azure, aws) (25%)
+			+ some more commanns and regular task which you already know		
+
+
+		3. Communication between Microservice
+			WebAPI
+			a. Develop
+			b. Consume
+				Client End (Fast and light weight, less secure)
+				Server side (very secure)
+
+		4. Working with Docker Compose file
+
+	----------------Today - Task Day -------------------------
+
+		a. create a new dotnet mvc app
+		b. Below are the contollers needed
+			a. ProfileController - MVC (this is a profile about you)
+				About Me (display an image, download from google)
+				Contact Me
+				Educational Qualification
+				Skills
+				
+				update the layout page accordingly (links)
+
+			b. EmployeeController : API Controller
+				GetAllEmployee
+				GetEmployeeById
+
+			   ClientController : APIController
+				GetClient
+				GetClientById
+
+		c. test the app locally
+		d. create an image of the app
+		e push it to your docker hub id
+		f. Share the image with me, I will test it
+
+
+
+
+
+
+
+
+
+ 
+	
+
+			
+				
+
+
+
+
+
+
+
+				
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

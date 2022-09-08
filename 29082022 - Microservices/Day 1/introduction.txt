@@ -1,0 +1,60 @@
+1. What, why, where, how and where to use MS
+2. Tools and Platforms
+	Docker
+		Images
+		Containers
+	Together they are the output of a Microservice
+3. MS configurations - .yaml
+		docker-compose.yml
+
+4 . create Microservices which uses
+		.net core
+		EF Core 
+		and perform crud operations on Collection /SQL Server
+5. Consume Web API in Microservice - REST api calls
+
+6. create the MS images and push it to a repository
+		Docker hub
+		Azure Container Repository (ACR)
+		AWS Buckets
+
+---------------------------------------------------------
+	Course pre-requisite
+1.  Lab setup 
+	Visual Studio 2022 / 2019
+	SQL Server 2014 or above with SSMS
+	docker (to create MS apps)
+
+optionally 
+USE Cloud Lab
+
+2. OOPS and .net  
+
+-------------------------------------------------------
+Goals
+You should be able to explain microservices
+Create a new microservice
+Take up an existing MS project for maintainince
+--------------------------------------------------------
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

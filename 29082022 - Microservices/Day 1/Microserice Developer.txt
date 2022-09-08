@@ -1,0 +1,44 @@
+
+
+
+
+
+
+1. Create an Microservice Image
+2. Run the image in Microservice Container
+3. Push the image to an Repository
+4. Pull the image from repository
+5. Collate all the MS in 1 place - Configuration file and send it to the user (.yml file)
+
+--------------------------------------------------------------------------------------------------------------------------
+
+	Day 2: Tomorrow
+
+	1. Setup the lab 
+		Download and Install VS 2022 
+		Download and Install Docker for windows (but it will create the linux based images as well)
+		Pull a hello-world microservice image from docker hub
+		Create your first Microservice image
+		Run the same in a container
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

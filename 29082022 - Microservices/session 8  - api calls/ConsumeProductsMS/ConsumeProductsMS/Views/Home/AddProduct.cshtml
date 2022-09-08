@@ -1,0 +1,34 @@
+﻿
+
+
+
+
+
+<script>
+    function addNewProduct(){
+        var id = $("#txtPid").val();
+        var name = $("#txtpName").val();
+        var category = $("#txtpCategory").val();
+        var price = $("#txtPPrice").val();
+        var isinstock = $("#txtPIsInStock").val();
+
+        var newproducts = { "pId": id, "pName": name, "pCategory": category, "pPrice": price, "pIsInStock": isinstock }
+
+        fetch('https://localhost:7163/api/products/plist',{method:'POST', body:JSON.stringify(newproducts)}).then(res => res.json())
+                                                                            .then(result => {
+                                                                               console.log(result);
+                                                                            }).catch(err => {
+                                                                                console.log(err);
+                                                                            })
+
+    }
+</script>
+
+
+    <input type="number" placeholder="Enter Product Id" id="txtPid" class="form-control" />
+<input type="text" placeholder="Enter Product Name" id="txtpName" class="form-control" />
+<input type="text" placeholder="Enter Product Category" id="txtpCategory" class="form-control" />
+<input type="number" placeholder="Enter Product Price" id="txtPPrice" class="form-control" />
+<input type="number" placeholder="Enter Product Is In Stock" id="txtPIsInStock" class="form-control" />
+    <button onclick="addNewProduct()" class="btn btn-primary" type="submit">Add </button>
+

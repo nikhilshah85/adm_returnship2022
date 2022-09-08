@@ -1,0 +1,34 @@
+﻿
+
+<script>
+    function GetProducts()
+    {
+        fetch('https://localhost:7163/api/products/plist').then( res=> res.json())
+                                                          .then(result => {
+                                                              console.log(result);
+
+                                                              for(var i =0;i<result.length;i++)
+                                                              {
+                                                                  $("table").append("<tr>" + 
+                                                                  "<td>" + result[i].pId + "</td>" +
+                                                                  "<td>" + result[i].pName + "</td>" +
+                        "<td>" + result[i].pCategory + "</td>" +
+                        "<td>" + result[i].pPrice + "</td>" +
+                        "<td>" + result[i].pIsInStock + "</td>" +
+                                                                  
+                                                                  "</tr>")
+                                                              }
+
+
+                                                          })
+                                                          .catch(err => {
+                                                                console.log(err)
+                                                          })
+    }
+</script>
+
+
+
+<button class="btn btn-primary" onclick="GetProducts()">Show Products</button>
+
+<table class="table table-bordered"></table>

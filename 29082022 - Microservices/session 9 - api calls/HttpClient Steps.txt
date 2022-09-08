@@ -1,0 +1,14 @@
+1. create a new MVC applciation
+2. add a new controller socialmediacontroller
+3. add a new iactionresult GetPostData
+	 public IActionResult GetPostData()
+        {
+            return View();
+        }
+4. create a new Model Class in models folder, PostDataModel
+5. add properties for all the data you are going to get
+6. creaea a method which will use HttpClient 
+7. add a neget package Microsoft.AspNet.webapi.client
+8. call the method in a controller
+9. pass the data to a view from Iactionresult
+10. display the data in a view

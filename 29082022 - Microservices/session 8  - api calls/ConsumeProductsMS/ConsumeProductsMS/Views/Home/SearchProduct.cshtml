@@ -1,0 +1,33 @@
+﻿
+
+
+
+<script>
+    function  searchProductById()
+    {
+        var pid = $("#txtSearchProductById").val();
+        fetch('https://localhost:7163/api/products/plist/' + pid).then(response => response.json())
+                                                                 .then(result =>{
+                                                                     $("#pid").text("Product Id : " +  result.pId);
+                                                                     $("#pName").text("Product Name : " + result.pName);
+                                                                     $("#pCategory").text("Product Category : " +result.pCategory);
+                                                                     $("#pPrice").text("Product Price : " + result.pPrice);
+                                                                    $("#pIsInStock").text("Product Is In Stock : " + result.pIsInStock);
+                                                                 }).
+                                                                 catch(err => 
+                                                                     {
+                                                                         console.log(err);
+                                                                    })
+    }
+</script>
+
+
+
+<input type="number" placeholder="Enter Product Id" id="txtSearchProductById" class="form-control" onblur="searchProductById()" />
+<div style="background-color:lime">
+    <h3 id="pid"> </h3>
+    <h3 id="pName"> </h3>
+    <h3 id="pCategory"> </h3>
+    <h3 id="pPrice"> </h3>
+    <h3 id="pIsInStock"> </h3>
+</div>
